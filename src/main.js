@@ -1,2 +1,2 @@
 // Application root
-import './layouts/app-root'
+import '@/layouts/app-root'
