@@ -1,20 +1,29 @@
 {
-  "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
-    "format": "prettier --write \"src/**/*.js\"",
-    "lint": "prettier --check \"src/**/*.js\""
-  },
-  "dependencies": {
-    "lit-element": "^2.3.1",
-    "lit-html": "^1.2.1"
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-decorators": "^7.10.5",
-    "@snowpack/app-scripts-lit-element": "^1.8.4",
-    "prettier": "^2.0.5",
-    "snowpack": "^2.10.3"
-  }
+	"scripts": {
+		"start": "snowpack dev --watch",
+		"build": "snowpack build",
+		"lint": "eslint \"src/**/*.js\"",
+		"lint:fix": "eslint \"src/**/*.js\" --fix"
+	},
+	"dependencies": {
+		"lit-element": "^2.3.1",
+		"lit-html": "^1.2.1",
+		"lit-redux-router": "^0.15.1",
+		"pwa-helpers": "^0.9.1",
+		"redux": "^4.0.5"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.11.5",
+		"@babel/plugin-proposal-class-properties": "^7.10.4",
+		"@babel/plugin-proposal-decorators": "^7.10.5",
+		"@snowpack/app-scripts-lit-element": "^1.8.4",
+		"eslint": "^7.8.1",
+		"eslint-config-standard": "^14.1.1",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"prettier": "^2.0.5",
+		"snowpack": "^2.10.3"
+	}
 }
