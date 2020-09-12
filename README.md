@@ -1,28 +1,14 @@
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
-# OpenSky
+# :droplet: OpenSky
+> OpenSky is an open source alternative to DarkSky weather app.
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
 
-## Available Scripts
+### Contributing
+If you want to contribute to Pico to add a feature or improve the code contact me at [negrel.dev@protonmail.com](mailto:negrel.dev@protonmail.com), open an [issue](https://github.com/negrel/opensky/issues) or make a [pull request](https://github.com/negrel/opensky/pulls).
 
-### npm start
+## :stars: Show your support
+Please give a :star: if this project helped you!
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### npm run build
-
-Builds the app for production to the `dist/` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-## Directives
-
-In case you need to add a directive like `classMap` you should add the extension to the import:
-
-```
-import { classMap } from "lit-html/directives/class-map.js";
-```
+#### :scroll: License
+MIT © [Alexandre Negrel](https://www.negrel.dev)

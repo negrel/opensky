@@ -1,4 +1,6 @@
 {
+	"name": "opensky",
+	"desciption": "OpenSky is an open source alternative to DarkSky weather app.",
 	"scripts": {
 		"start": "snowpack dev --watch",
 		"build": "snowpack build",
